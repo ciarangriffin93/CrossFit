@@ -19,7 +19,9 @@ body {
   flex-direction: column;
   font-family: var(--main-font);
 }
-
+.navbar {
+  background-color: #94a7ad;
+}
 main {
   flex: 1 0 auto;
   background-color: var(--white);
