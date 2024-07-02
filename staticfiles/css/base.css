@@ -1,0 +1,42 @@
+:root {
+
+  /* Colours */
+  --background: #3f006a0f;
+  --black: #000;
+  --off-white: #000000;
+
+  /* Utils */
+    --smal-box-shadow: 1px -1px 7px 0 #00000061;
+    --border: 1px solid #00000030;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+}
+
+main {
+  flex: 1 0 auto;
+  background-color: var(--white);
+}
+
+  /* footer */
+  footer {
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: var(--border);
+}
+
+.social-icon {
+    height: 2rem;
+    margin: 1rem;
+} 
+
