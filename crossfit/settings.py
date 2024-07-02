@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-ciarangriffin9-crossfit-lsh3z5shkc9.ws.codeinstitute-ide.net','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-ciarangriffin9-crossfit-4ypnl8g47rp.ws.codeinstitute-ide.net','.herokuapp.com']
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'blog',
+    'bookings',
 ]
 
 MIDDLEWARE = [
@@ -94,7 +95,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriffin9-crossfit-zwgzbk8n1xf.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriffin9-crossfit-4ypnl8g47rp.ws.codeinstitute-ide.net'
 ]
 
 # Password validation
